@@ -1,0 +1,85 @@
+body{
+    font-weight: bold;
+}
+.remove-bullet{
+    list-style: none;
+}
+#header-container{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-right: 50px;
+}
+.padding-listItems{
+    padding-left: 15px;
+}
+.a-propertie{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+.underline-hover:hover{
+    text-decoration: underline;
+}
+.signIn-btn{
+    background-color: #0099ff;
+    padding: 10px;
+    border-radius: 8px;
+}
+.signIn-btn:hover{
+    background-color: #33ffff;
+    transition: all 400ms;
+}
+main{
+    margin-top: 13%;
+}
+.google-picture{
+    display: flex;
+    justify-content: center;
+}
+.search-box-container{
+    display: flex;
+    justify-content: center;
+}
+#search-box{
+    margin-top: 15px;
+    width: 40%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 30px;
+}
+.btn-container{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    padding: 10px;   
+}
+.btn-searchBox{
+    margin: 10px;
+    border: 0px;
+    border-radius: 3px;
+    padding: 8px;
+}
+.btn-searchBox:hover{
+    cursor: pointer;
+    border: 1px outset #330000;
+    transition: all 2s;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-top: 12%;
+}
+.footer-container>ul>li>a{
+    color: gray;
+}
+.display-ul-right{
+    display: flex;
+}
+.display-ul-left{
+    display: flex;
+    margin-right: 50px;
+}
