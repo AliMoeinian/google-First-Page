@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="contents/css/style.css">
@@ -8,74 +7,87 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Google</title>
   </head>
-
   <body>
-
     <nav>
-      <ul>
-        <li>
-          <a href="#">Gmail</a>
+      <ul id="header-container" class="remove-bullet">
+        <li class="padding-listItems">
+          <a href="https://www.google.com/gmail/about/" target="blank" class="underline-hover a-propertie">
+            Gmail
+          </a>
         </li>
-        <li>
-          <a href="#">Images</a>
+        <li class="padding-listItems">
+          <a href="https://www.google.com/imghp?hl=en&ogbl" target="blank" class="underline-hover a-propertie">
+            Images
+          </a>
         </li>
-        <li>
-          <a href="#"> <i class="ri-apps-2-fill"></i> </a>
+        <li class="padding-listItems">
+          <a href="https://workspace.google.com/" target="blank" class="underline-hover a-propertie">
+             <i class="ri-apps-2-fill" style="font-size: 25px;"></i> 
+            </a>
         </li>
-        <li>
-          <a href="#">Sign In</a>
+        <li class="padding-listItems">
+          <a href="#" target="blank" class="a-propertie signIn-btn">
+            Sign In
+          </a>
         </li>
       </ul>
     </nav>
-
     <main>
-
       <div class="google-picture">
         <img src="contents/images/google-logo.png" alt="google picture">
       </div>
-
       <form>
-        <input type="search" name="search-box"> <br>
-        <input type="submit" value="Google Search">
-        <input type="submit" value="I'm Feeling lucky">
+        <div class="search-box-container">
+        <input type="search" id="search-box">
+        </div>
+        <div class="btn-container">
+          <input type="submit" value="Google Search" class="btn-searchBox"> 
+          <input type="submit" value="I'm Feeling lucky" class="btn-searchBox">
+        </div>
       </form>
-
     </main>
-
     <footer>
-
-      <div class="right-side">
-        <ul>
-          <li>
-            <a href="#">Advertising</a>
+      <div class="footer-container">
+        <ul class="remove-bullet display-ul-right">
+          <li class="padding-listItems">
+            <a href="https://ads.google.com/intl/en_ir/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="blank" class="underline-hover a-propertie">
+              Advertising
+            </a>
           </li>
-          <li>
-            <a href="#">Business</a>
+          <li class="padding-listItems">
+            <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" target="blank" class="underline-hover a-propertie">
+              Business
+            </a>
           </li>
-          <li>
-            <a href="#">About</a>
+          <li class="padding-listItems">
+            <a href="https://about.google/?utm_source=google-IR&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="blank" class="underline-hover a-propertie">
+              About
+            </a>
           </li>
-          <li>
-            <a href="#">How Search Works</a>
+          <li class="padding-listItems">
+            <a href="https://www.google.com/search/howsearchworks/?fg=1" target="blank" class="underline-hover a-propertie">
+              How Search Works
+            </a>
+          </li>
+        </ul>
+        <ul class="remove-bullet display-ul-left">
+          <li class="padding-listItems end">
+            <a href="https://policies.google.com/privacy?hl=en-IR&fg=1" target="blank" class="underline-hover a-propertie">
+              Privacy
+            </a>
+          </li>
+          <li class="padding-listItems">
+            <a href="https://policies.google.com/terms?hl=en-IR&fg=1" target="blank" class="underline-hover a-propertie">
+              Terms
+            </a>
+          </li>
+          <li class="padding-listItems">
+            <a href="#" target="blank" class="underline-hover a-propertie">
+              Setting
+            </a>
           </li>
         </ul>
       </div>
-
-      <div class="left-side">
-        <ul>
-          <li>
-            <a href="#">Privacy</a>
-          </li>
-          <li>
-            <a href="#">Terms</a>
-          </li>
-          <li>
-            <a href="#">Setting</a>
-          </li>
-        </ul>
-      </div>
-
     </footer>
-
   </body>
 </html>
